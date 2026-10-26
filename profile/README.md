@@ -29,7 +29,7 @@ An experimental, low-cost ESP32 security testbed for controlled IoT vulnerabilit
 
 A command-line security analysis module for embedded firmware and configuration. FUSE scans selected files for common security indicators and reports candidate findings with evidence, severity, confidence, and remediation guidance. Optional tools support component inventory, dependency vulnerability matching, and firmware signature identification. FUSE can help select issues for controlled validation with SPECTRA-32.
 
-<a href="https://github.com/VIGIL-IoT/VIGIL-FUSE"><img src="https://img.shields.io/badge/Private%20repository-VIGIL--FUSE-64748B?style=flat-square&amp;logo=github&amp;logoColor=white" alt="VIGIL-FUSE private repository" /></a>
+<a href="https://github.com/VIGIL-IoT/VIGIL-FUSE"><img src="https://img.shields.io/badge/Explore-VIGIL--FUSE-3A8077?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Explore VIGIL-FUSE" /></a>
 
 ## Areas of focus
 
