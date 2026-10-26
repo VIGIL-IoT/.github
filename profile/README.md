@@ -3,12 +3,12 @@
   <h1>VIGIL-IoT</h1>
   <p>
     <strong>Vulnerability Intelligence &amp; Guarding for IoT Layers</strong><br />
-    Exploring security across connected devices—from hardware and firmware to communication, networks, and cyber-physical systems.
+    Researching security across connected systems, from hardware and firmware to communication, networks, and cyber-physical environments.
   </p>
   <p>
-    <a href="https://vigil-iot.vercel.app">Project overview</a>
+    <a href="https://vigil-iot.vercel.app">Overview website</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/VIGIL-IoT/Vulnerability-Intelligence-Guarding-for-IoT-Layers">Website source</a>
+    <a href="https://github.com/orgs/VIGIL-IoT/repositories">Browse repositories</a>
   </p>
 </div>
 
@@ -16,37 +16,42 @@
 
 ## About
 
-VIGIL-IoT is an engineering and research initiative exploring how security weaknesses emerge across embedded and Internet of Things (IoT) systems—and how practical, resource-aware defenses can improve resilience.
-
-Connected systems bring together physical devices, firmware, communication protocols, applications, networks, and services. We look at the whole system and the trust boundaries between its parts.
+VIGIL-IoT is an engineering and research initiative focused on security across embedded devices and the Internet of Things. We study how weaknesses in hardware, firmware, communication, applications, and networks can affect a connected system, then explore practical ways to improve its resilience.
 
 ## Projects
 
-- **[SPECTRA-32](https://github.com/VIGIL-IoT/VIGIL-Spectra-32)** — an experimental, low-cost ESP32 security testbed for IoT vulnerability and defense research. The repository currently includes a Python behavior model and a Streamlit console; hardware validation is planned.
-- **[VIGIL-IoT overview website](https://github.com/VIGIL-IoT/Vulnerability-Intelligence-Guarding-for-IoT-Layers)** — an introduction to the initiative, its layered security perspective, research direction, and responsible testing principles.
+### SPECTRA-32
 
-## Areas of exploration
+An experimental, low-cost ESP32 security testbed for controlled IoT vulnerability and defense research. The current software milestone includes a Python behavior model and a Streamlit console. Hardware validation is planned. SPECTRA-32 explores secure communication, attack and defense mechanisms, and cyber-physical resilience.
 
-- **Embedded and device security** — hardware trust boundaries, interfaces, and device configuration.
-- **Firmware security** — boot and update integrity, exposed functionality, secrets, and dependencies.
-- **IoT communication and trust** — device identity, authentication, message integrity, protocols, and trust relationships.
-- **Network resilience** — exposure, visibility, segmentation, and containment.
-- **Defensive intelligence** — evidence-based detection and mitigation for resource-constrained systems.
+[Explore SPECTRA-32](https://github.com/VIGIL-IoT/VIGIL-Spectra-32)
 
-## How we work
+### VIGIL-FUSE
+
+A command-line security analysis module for embedded firmware and configuration. FUSE scans selected files for common security indicators and reports candidate findings with evidence, severity, confidence, and remediation guidance. Optional tools support component inventory, dependency vulnerability matching, and firmware signature identification. FUSE can help select issues for controlled validation with SPECTRA-32.
+
+[VIGIL-FUSE source repository](https://github.com/VIGIL-IoT/VIGIL-FUSE) (private repository)
+
+## Areas of focus
+
+- Embedded devices, hardware trust boundaries, and interfaces
+- Firmware integrity, updates, configuration, and dependencies
+- IoT identity, authentication, communication protocols, and trust
+- Network exposure, visibility, segmentation, and containment
+- Evidence-based defenses for resource-constrained systems
+
+## Research approach
 
 **Observe → Analyze → Validate → Harden**
 
-We map system behavior and exposed surfaces, examine security assumptions, validate hypotheses through controlled and repeatable experiments, and evaluate whether defensive changes improve resilience.
+We map system behavior and trust boundaries, examine security assumptions, validate hypotheses through controlled and repeatable experiments, and evaluate defensive changes against evidence.
 
 ## Principles
 
-- **Evidence first:** make claims that can be observed, measured, and reviewed.
-- **Think in layers:** consider how hardware, firmware, communication, networks, and applications interact.
-- **Respect constraints:** account for the memory, compute, bandwidth, and energy limits of embedded systems.
-- **Test responsibly:** use owned devices, simulations, isolated lab networks, or explicitly authorized environments.
-- **Be transparent:** state assumptions, capabilities, and limitations clearly.
+- **Evidence first:** make claims that can be observed and reviewed.
+- **Layered thinking:** account for how device, firmware, communication, and network security interact.
+- **Resource awareness:** consider memory, compute, bandwidth, and energy constraints.
+- **Responsible testing:** use owned devices, simulations, isolated lab networks, or explicitly authorized environments.
+- **Transparency:** state assumptions, capabilities, and limitations clearly.
 
-## Explore VIGIL-IoT
-
-Visit the [project overview](https://vigil-iot.vercel.app) and explore the repositories listed above to follow the work.
+Visit the [VIGIL-IoT overview website](https://vigil-iot.vercel.app) to learn more.
